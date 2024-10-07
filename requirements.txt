@@ -1,0 +1,17 @@
+open3d
+plyfile
+ninja
+GPUtil
+opencv-python
+lpips
+trimesh
+kiui
+matplotlib
+tqdm
+rembg
+transformers
+diffusers
+einops
+kornia
+tyro
+accelerate
