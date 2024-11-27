@@ -29,6 +29,7 @@ NeurIPS, 2024
 ```
 # Conda environment
 conda create -n human3diffusion python=3.10
+conda activate human3diffusion
 pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121
 pip install xformers==0.0.22.post4 --index-url https://download.pytorch.org/whl/cu121
 
@@ -70,7 +71,7 @@ python infer_mesh.py --test_imgs test_imgs --output output --checkpoints checkpo
 ## Citation :writing_hand:
 
 ```bibtex
-@inproceedings{xue2023human3diffusion,
+@inproceedings{xue2024human3diffusion,
   title     = {{Human 3Diffusion: Realistic Avatar Creation via Explicit 3D Consistent Diffusion Models}},
   author    = {Xue, Yuxuan and Xie, Xianghui and Marin, Riccardo and Pons-Moll, Gerard.},
   journal   = {NeurIPS 2024},
